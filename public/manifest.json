@@ -1,0 +1,16 @@
+{
+  "short_name": "Safe App",
+  "name": "Safe App Vite SWC TS Template",
+  "description": "Describe your Safe App here",
+  "icons": [
+    {
+      "src": "vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
