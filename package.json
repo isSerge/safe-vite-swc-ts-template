@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
     "@safe-global/safe-apps-react-sdk": "^4.7.0",
     "@safe-global/safe-apps-sdk": "^8.1.0",
     "@safe-global/safe-react-components": "^2.0.6",
