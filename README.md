@@ -29,8 +29,7 @@ cd [project-name]
 npm install
 ```
 
-After installation, you can start the development server to see the template in
-action:
+Start the development server:
 
 ```bash
 npm run dev
@@ -49,5 +48,3 @@ instead of `http://localhost:3000/`
   Ethereum)
 - [`viem`](https://github.com/wagmi-dev/viem) (Typerscript library for
   interacting with Ethereum)
-- [`@studydefi/money-legos`](https://github.com/studydefi/money-legos) (Library
-  for DeFi interactions)
