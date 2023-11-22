@@ -1,30 +1,34 @@
-# React + TypeScript + Vite
+# Safe App Vite SWC TypeScript Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This template is designed to offer a streamlined and modern approach to Safe App
+development. It's an alternative to the original Safe App template which relies
+on `create-react-app`, a tool that is not actively maintained as of late.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features
 
-## Expanding the ESLint configuration
+- **TypeScript and React**: Harness the power of TypeScript and React for robust
+  app development.
+- **Vite and SWC**: Benefit from fast builds and compilation with Vite and SWC.
+- **Tailwind CSS**: Style your app efficiently with Tailwind CSS.
+- **Safe integration**: Includes `@safe-global/safe-apps-react-sdk` and
+  `@safe-global/safe-apps-sdk` for seamless integration with the Safe ecosystem.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Getting Started
 
-- Configure the top-level `parserOptions` property like this:
+To get started with this template, clone the repository and install the
+dependencies:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+git clone https://github.com/isSerge/safe-vite-swc-ts-template
+cd safe-vite-swc-ts-template
+npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+After installation, you can start the development server to see the template in
+action:
+
+```bash
+npm run dev
+```
