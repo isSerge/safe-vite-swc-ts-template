@@ -1,12 +1,8 @@
-import { Typography, CircularProgress, Box } from '@mui/material';
-
 export const AppLoader = () => (
-  <>
-    <Typography variant="h6" sx={{ fontWeight: 'bold', marginBottom: '1rem' }}>
-      Waiting for Safe...
-    </Typography>
-    <Box sx={{ display: 'flex', justifyContent: 'center' }}>
-      <CircularProgress />
-    </Box>
-  </>
+  <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
+    <div className="text-center">
+      <p className="text-lg text-gray-700 mb-2">Waiting for Safe...</p>
+      <p className="text-sm text-gray-500">Loading...</p>
+    </div>
+  </div>
 );
